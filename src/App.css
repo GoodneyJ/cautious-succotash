@@ -1,0 +1,882 @@
+body, html {
+  height: 100%;
+}
+
+.App {
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* NAVBAR COMPONENT */
+
+#navbar-wrapper {
+  background-color: #FFFFFF;
+}
+
+#navbar-container {
+  overflow: hidden;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: .5rem;
+  margin-bottom: 1rem;
+  z-index: 1;
+  background-color: #FFFFFF;
+}
+
+#nav-link-wrapper {
+  display: flex;
+
+}
+
+.sticky {
+  padding-top: 15px;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 1px 5px 5px 0px rgba(0,0,0,0.23);
+  -webkit-box-shadow: 1px 5px 5px 0px rgba(0,0,0,0.23);
+  -moz-box-shadow: 1px 5px 5px 0px rgba(0,0,0,0.23);
+  transition: padding 50ms linear;
+}
+
+#nav-link-list {
+  list-style-type: none;
+  display: flex;
+  margin-top: 1rem;
+
+}
+
+.nav-item {
+  letter-spacing: .2px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 1.1rem;
+}
+
+
+
+.nav-link {
+  font-weight: 500;
+  text-decoration: none;
+  color: #b3b2b2;
+  transition: background-color 150ms linear;
+}
+
+.nav-link:hover {
+  color: #474747;
+  transition: color 250ms linear;
+}
+
+.active {
+  color:#2C3038 !important;
+  font-weight: 600;
+}
+
+
+
+#nav-logo {
+  font-size: 2rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: #2C3038;
+  font-weight: 600;
+}
+
+#logo-car {
+  color: red;
+  vertical-align: middle;
+  font-size: 2rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: .3rem;
+}
+
+#nav-contact-btn {
+  color: #ca3636;
+  margin-left: 1rem;
+  margin-top: .5rem;
+  padding-top: .6rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border: 1px solid #ca3636;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background-color 150ms linear, color 50ms linear;
+}
+
+#nav-contact-btn:hover {
+  background-color: #ca3636;
+  color: white;
+  transition: background-color 150ms linear, color 50ms linear;
+}
+
+/* HERO COMPONENT */
+#hero-wrapper {
+  padding-top: 5rem;
+}
+
+#hero-content {
+  padding: 7rem;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('./IMAGES/tires.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 70%;
+}
+
+#hero-info {
+  width: 50%;
+}
+
+#hero-info-header {
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+#hero-info-text {
+  padding-bottom: 1rem;
+  width: 80%;
+}
+
+#hero-info-btn {
+  margin-top: 1.5rem;
+  background-color: #ca3636;
+  font-weight: 600;
+  border-radius: 5px;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem; 
+}
+
+#hero-callback {
+  border-radius: 5px;
+  color: #2C3038 !important;
+  background-color: #FFFFFF;
+  padding: 2.5rem;
+  width: 20%;
+  
+  text-align: center;
+}
+
+#callback-header {
+  font-size: 1.5rem;
+  letter-spacing: .5px;
+  margin-top: .5rem;
+  margin-bottom: .5rem
+}
+
+.input-item {
+  width: 90%;
+  border: none;
+  border-radius: 5px;
+  padding: .8rem;
+  margin: .5rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f3f3f3;
+}
+
+#callback-btn {
+  align-content: center;
+  width: 100%;
+  padding: .7rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  background-color: #ca3636;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+
+}
+
+/* HOMEPAGE CONTENT */
+
+/* -- FIRST SECTION -- *ABOUT US* */
+
+#first-section {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  display: flex;
+}
+
+#first-section-content {
+  margin-left: 2rem;
+}
+
+#first-section-img {
+  width: 570px;
+  height: 380px;
+  border-radius: 5px;
+}
+
+#first-section-header {
+  font-size: 2rem;
+  color: #2C3038;
+}
+
+#first-section-text {
+  line-height: 1.5;
+  color: #474747;
+  width: 80%;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
+#first-section-btn {
+  color: white;
+  background-color: #ca3636;
+  font-weight: 600;
+  border-radius: 5px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/* -- SECOND SECTION -- *SERVICES* */
+
+#second-section {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  background-color: #F7F7F7;
+  text-align: center;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .85rem;
+  color: #7e7d7d;
+  margin-bottom: 0rem;
+}
+
+#second-section-header {
+  font-size: 2rem;
+  margin-top: .5rem;
+  margin-bottom: 3rem;
+  color: #2C3038;
+}
+
+#card-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.card {
+  color: #2C3038;
+  width: 25%;
+  height: 250px;
+  border-radius: 5px;
+  background-color: white;
+  padding: 2rem;
+  padding-bottom: 6rem;
+}
+
+#second-section-car-icon, #second-section-plug-icon, #second-section-wrench-icon {
+  color:#B82020;
+  font-size: 2.5rem;
+  margin-top: 1.5rem;
+}
+
+.card h2 {
+  margin-top: .5rem;
+}
+
+.card-text {
+  width: 70%;
+  line-height: 1.5;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 0;
+  color: #696969;
+  font-size: 1.3em;
+  padding-bottom: 1rem;
+}
+
+.right-arrow {
+  color: #B82020;
+  margin-left: .5rem;
+  vertical-align: middle;
+}
+
+.read-more-btn {
+  color: #2C3038;
+  font-weight: 600;
+  transition: color 250ms linear;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.read-more-btn:hover {
+  transition: color 350ms linear;
+  color: #ca3636
+}
+
+/* -- THIRD SECTION -- *STATS* */
+
+#third-section {
+  margin-top: 5rem;
+  text-align: center;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5rem;
+}
+
+#info-items-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#third-section-header {
+  color: #2C3038;
+  font-size: 2rem;
+  margin-top: .5rem;
+  margin-bottom: 2rem;
+}
+
+#third-section-car-icon, #third-section-cogs-icon, #third-section-users-icon, #third-section-wrench-icon {
+  color: #B82020;
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
+
+.info-item {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info-header {
+  color: #2C3038;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  margin-top: .5rem;
+}
+
+.info-text {
+  letter-spacing: .5px;
+  margin-top: 0rem;
+  color: #696969;
+  font-size: 1.2rem;
+}
+
+/* -- FOURTH SECTION -- *MORE SERVICES* */
+
+#fourth-section {
+  background-color: #F7F7F7;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+}
+
+#fourth-section-header {
+  margin-top: .5rem;
+  margin-bottom: 3rem;
+  color: #2C3038;
+
+}
+
+#service-options-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.service-option-header {
+  color: #2C3038;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.service-option-text {
+  color: #696969;
+  text-align: left;
+  font-size: 1.1rem;
+  width: 85%;
+}
+
+.service-option-item {
+  display: flex;
+
+}
+.service-icon {
+  color: #B82020;
+  vertical-align: middle;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: .3rem;
+  font-size: 5rem;
+}
+
+
+/* -- FIFTH SECTION -- *QUALIFICATIONS* */
+
+#fifth-section {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#fifth-section-text-container {
+  margin-left: 2rem;
+  width: 30%;
+}
+
+#fifth-section-header {
+  color: #2C3038;
+  letter-spacing: .2px;
+}
+
+#fifth-section-text {
+  color: #696969;
+  font-size: 1.2rem;
+  letter-spacing: .2px;
+}
+
+#fifth-section-list {
+  padding-top: 1rem;
+  list-style-type: none;
+}
+
+.bullet {
+  font-size: .6rem;
+  font-weight: 700;
+  color: #ca3636;
+  margin-right: .5rem;
+}
+
+/* note: tried doing it the semantic way but couldnt make the bullets align, caveman method in effect */
+#fifth-section-list li:before {
+  color: red;
+  float: left;
+  margin: 0 0 0 -1em;
+  width: 1em;
+  font-size: .7rem;
+  
+
+
+}
+
+.list-item {
+  margin-top: .75rem;
+  margin-bottom: .75rem;
+}
+
+
+/* -- SIXTH SECTION -- *TESTIMONIALS* */
+#sixth-section {
+  background-color: #F7F7F7;
+
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sixth-section-content-container {
+  display: flex;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sixth-section-subheader {
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+#sixth-section-header {
+  color: #2C3038;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#carousel-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FFFFFF;
+  border-radius: 5px !important;
+}
+
+.quote-icon {
+  color: #B82020;
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  margin-left: 4.6rem;
+}
+
+.profile-text {
+  color: #696969;
+  font-size: 1.1rem;
+  font-weight: 500;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: .2rem;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: start;
+  margin-right:auto;
+  margin-left: 5rem;
+  text-align: center;
+  
+}
+
+.profile-pic {
+  border-radius: 100%;
+  height: 75px;
+  width: 75px !important;
+}
+
+.profile-info {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 1rem;
+  text-align: left;
+}
+
+.profile-name {
+  font-size: 1.2rem;
+
+}
+
+.profile-job {
+  color:#696969;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.profile-info h4 {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.profile-info h5 {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* -- SEVENTH SECTION *BANNER* -- */
+
+#seventh-section-container {
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('./IMAGES/banner.jpg');
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#seventh-section-subheader {
+  color: #EEEEEE;
+  letter-spacing: 1px;
+}
+
+#seventh-section-header {
+  width: 60%;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-size: 3rem;
+  
+}
+
+#seventh-get-started  {
+  color: #ca3636;
+  background-color: #FFFFFF;
+  padding: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: color 150ms linear;
+}
+
+#seventh-get-started:hover {
+  color: #212529;
+  transition: color 250ms linear;
+}
+
+#seventh-contact-us {
+  color: white;
+  background-color: #D92626;
+  padding: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin: 1rem;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background-color 150ms linear;
+}
+
+#seventh-contact-us:hover {
+  background-color: #B82020;
+  transition: background-color 250ms linear;
+}
+
+/* -- EIGHTH SECTION *CONTACT US* -- */
+#eighth-section-container {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+#eighth-section-content {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#eighth-section-header {
+  font-size: 2rem;
+  letter-spacing: .2px;
+  color: #2C3038;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+#eighth-section-subheader {
+
+  color: #696969;
+  letter-spacing: .4px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-top: .5rem;
+}
+
+#phone-number {
+  color: #2C3038;
+  margin-top: .5rem;
+  font-size: 2.8rem;
+}
+
+#eighth-section-text {
+  width: 85%;
+  color: #696969;
+  font-size: 1.2rem;
+  padding-bottom: 3rem;
+}
+
+#eighth-get-started {
+  color: white;
+  background-color: #D92626;
+  padding: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background-color 150ms linear;
+}
+
+#eighth-get-started:hover {
+  background-color: #B82020;
+  transition: background-color 250ms linear;
+}
+
+
+#eighth-contact-us {
+  color: #ca3636;
+  font-weight: 700;
+  border: solid 1px #D92626;
+  border-radius: 5px;
+  padding: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-left: 1rem;
+  transition: background-color 150ms linear, color 50ms linear;
+}
+
+#eighth-contact-us:hover {
+  color: white;
+  background-color: #D92626;
+  transition: background-color 250ms linear, color 150ms linear;
+}
+
+#customer-support {
+  transform: translateY(65px);
+  width: 35%;
+  height: 35%;
+}
+
+/* -- NINTH SECTION *SUBSCRIBE* -- */
+
+#ninth-section-container {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #D92626;
+  color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#ninth-section-content {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#ninth-section-headers {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#ninth-section-header {
+  font-size: 1.9rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+#ninth-section-subheader {
+  margin: 0;
+}
+
+#ninth-section-inputs {
+
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+
+#text-input {
+  height: 60px;
+  width: 450px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+  font-size: 1.1rem;
+  padding-left: 1rem;
+}
+
+#btn {
+  font-size: 1.1rem;
+  font-weight: 550;
+  color: white;
+  letter-spacing: .5px;
+  height: 62px;
+  padding: 1rem;
+  background-color: #212020;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  transition: background-color 150ms linear;
+}
+
+#btn:hover {
+  background-color: #192D35;
+  transition: background-color 250ms linear;
+}
+
+/* FOOTER SECTION */
+#footer-container {
+  background-color: #212020;
+  padding-top: 4rem;
+
+}
+
+#footer-content {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #6D6D6D;
+  font-size: 1.1rem;
+
+}
+
+#footer-header {
+  margin-top: 0;
+  color: #FFF;
+}
+
+#map-marker, #phone-icon, #envelope {
+  margin-right: .5rem;
+}
+
+#footer-email {
+  padding-bottom: 1rem;
+}
+
+#socials {
+
+  padding-bottom: 3rem;
+}
+
+.social-item {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: .75rem;
+  padding: .75rem;
+  color: #E9EBF4;
+  margin: .5rem;
+  border-radius: 100%;
+  background: #323232;
+}
+
+#legal-stuff {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 0;
+  border-top: 1px solid #6D6D6D;
+}
+
+#layout-link, #rover-link {
+  color: #FFFFFF;
+}
