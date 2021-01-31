@@ -11,60 +11,40 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+#### Purpose of  Project
 
-### `yarn test`
+Just wanted to try my hand at recreating a design by eye and seeing how close I could get to the original thing.
+Not really sure if I want to continue doing the rest of the site, don't think I will. I kinda wanna just get started on another maybe even make my own to better my eye for design..
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+##### Where I got the design
 
-### `yarn build`
+I got the design from: https://w3layouts.com/ front page,
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Can be purchased from: https://w3layouts.com/template/car-servicing-website-template/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+It was designed by: https://roverthemes.com/ so shout out to them, hopefully they don't get mad I did this
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+###### Stuff I Used
 
-### `yarn eject`
+React(duh)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+React-Icons: https://react-icons.github.io/react-icons/
+Lets you implement only icons you use in your project from a bunch of different sources(font awesome, devicons, game icons, etc...) rather than downloading a whole icon package
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+an Owl-Carousel Component: https://github.com/laurenchen0631/react-owl-carousel
+I was gonna try bootstrap but i figured I'd try to get the original plugin they used for the WP design
+which was Owl Carousel (https://owlcarousel2.github.io/OwlCarousel2/). When that didn't work I found the component by lauren chen(linked above) so thanks to her for making that. Was the first time I tried downloading a custom component like that and using it.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+####### Stuff to add
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+-- I still need to add:
+    Responsive/Mobile view screen sizes,
+    Proper color hover effects for social icons in footer,
+    light/dark mode toggle switch,
+    proper dropdown menu for the nav,
+    back to top button,
+    
+######## Extra:
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img src="https://media2.giphy.com/media/YhLzPwkQrj1mdQDoKF/giphy.gif" width="300" >
+    
