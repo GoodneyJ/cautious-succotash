@@ -43,7 +43,8 @@ which was Owl Carousel (https://owlcarousel2.github.io/OwlCarousel2/). When that
     light/dark mode toggle switch,
     proper dropdown menu for the nav,
     back to top button,
-    
+    Change the page/component structure so that it makes more sense,
+    clean up the code
 ## Extra:
 
 <img src="https://media2.giphy.com/media/YhLzPwkQrj1mdQDoKF/giphy.gif" width="300" >
